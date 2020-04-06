@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+//Componentes
+import { NgCardAnimatedComponent } from './ng-card-animated/ng-card-animated.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [NgCardAnimatedComponent],
   imports: [
     CommonModule
   ]
